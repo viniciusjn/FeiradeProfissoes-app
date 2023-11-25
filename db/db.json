@@ -1,0 +1,74 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "João Pedro",
+      "email": "joaopedro@gmail.com",
+      "senha": "123456",
+      "cep": "36030430",
+      "endereco": "Rua Antônio Espanhol Celeste",
+      "bairro": "Santa Luzia",
+      "numero": 100,
+      "cidade": "Juiz de Fora - MG",
+      "idade": "18",
+      "instituicao": "Colégio Equipe",
+      "perfil": "ALUNO"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Eduarda",
+      "email": "mariaeduarda@gmail.com",
+      "senha": "123456",
+      "cep": "36050220",
+      "endereco": "Rua Jovino Ribeiro",
+      "bairro": "Bairu",
+      "numero": 2554,
+      "cidade": "Juiz de Fora - MG",
+      "idade": "18",
+      "instituicao": "Colégio Equipe",
+      "perfil": "ALUNO"
+    },
+    {
+      "id": 3,
+      "nome": "Lucas Silva",
+      "email": "lucassilva@gmail.com",
+      "senha": "123456",
+      "cep": "36092040",
+      "endereco": "Rua E",
+      "bairro": "Distrito Industrial",
+      "numero": 50,
+      "cidade": "Juiz de Fora - MG",
+      "idade": "17",
+      "instituicao": "Colégio CAVE",
+      "perfil": "ALUNO"
+    },
+    {
+      "id": 4,
+      "nome": "Matheus Gomes",
+      "email": "matheusgomes@gmail.com",
+      "senha": "123456",
+      "cep": "36030430",
+      "endereco": "Rua Antônio Espanhol Celeste",
+      "bairro": "Santa Luzia",
+      "numero": 200,
+      "cidade": "Juiz de Fora - MG",
+      "idade": "21",
+      "instituicao": "Faculdade Metodista Granbery",
+      "perfil": "ADMIN"
+    },
+    {
+      "nome": "Larissa Santos",
+      "email": "larissasantos@gmail.com",
+      "senha": "123456",
+      "cep": "36046220",
+      "endereco": "Galeria Francisco Moreira Guedes",
+      "bairro": "Nossa Senhora das Graças",
+      "numero": "40",
+      "cidade": "Juiz de Fora - MG",
+      "idade": "18",
+      "instituicao": "Escola Estadual Duque de Caxias",
+      "perfil": "ALUNO",
+      "id": 5
+    }
+  ]
+}
