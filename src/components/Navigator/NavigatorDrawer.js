@@ -1,9 +1,11 @@
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import DisciplinaView from "../../view/Geral/DisciplinaView";
 import SuporteView from "../../view/Geral/SuporteView";
 import { getContext } from "../AuthContext/AuthContext";
 import { Feather, AntDesign } from '@expo/vector-icons';
 import { FlatList, Image, ScrollView, Text, View } from 'react-native-reanimated';
+import DireitoView from "../../view/Geral/DireitoView";
+import EducacaoFisicaView from "../../view/Geral/EducacaoFisicaView";
+import SistemasInformacaoView from "../../view/Geral/SistemasInformacaoView";
 
 
 const Drawer = createDrawerNavigator();
@@ -37,18 +39,30 @@ const NavigatorDrawer = () => {
             }
 
 
-            {/* <Drawer.Screen name="Disciplinas" component={DisciplinaView}/> */}
-            <Drawer.Screen name="Disciplinas" component={DisciplinaView}
+            <Drawer.Screen name="Direto" component={DireitoView}
                 options={
                     {
-                        drawerLabel: 'Disciplinas',
+                        drawerLabel: 'Direito',
                         drawerIcon: (size) => <Feather name="book" size={20} color="black" />
                     }
                 }
             />
-            {/* <Drawer.Screen name="Alterar dados" component={SuporteView} />
-            <Drawer.Screen name="Listar doadores" component={SuporteView} />
-            <Drawer.Screen name="Listar receptores" component={SuporteView} /> */}
+            <Drawer.Screen name="EducacaoFisica" component={EducacaoFisicaView}
+                options={
+                    {
+                        drawerLabel: 'Educação Física',
+                        drawerIcon: (size) => <Feather name="book" size={20} color="black" />
+                    }
+                }
+            />
+            <Drawer.Screen name="SistemasDeInformacao" component={SistemasInformacaoView}
+                options={
+                    {
+                        drawerLabel: 'Sistemas de Informação',
+                        drawerIcon: (size) => <Feather name="book" size={20} color="black" />
+                    }
+                }
+            />
         </Drawer.Navigator>
     )
 }

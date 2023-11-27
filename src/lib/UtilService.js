@@ -1,4 +1,4 @@
-const URL = 'https://b7e3-186-233-43-17.ngrok.io'
+const URL = 'https://520c-186-233-43-17.ngrok.io'
 
 const loginApi = async (login, senha)=>{
 
