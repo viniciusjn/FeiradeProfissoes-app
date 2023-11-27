@@ -1,12 +1,13 @@
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import SuporteView from "../../view/Geral/SuporteView";
 import { getContext } from "../AuthContext/AuthContext";
-import { Feather, AntDesign } from '@expo/vector-icons';
+import { Feather, FontAwesome5 } from '@expo/vector-icons';
 import { FlatList, Image, ScrollView, Text, View } from 'react-native-reanimated';
 import DireitoView from "../../view/Geral/DireitoView";
 import EducacaoFisicaView from "../../view/Geral/EducacaoFisicaView";
 import SistemasInformacaoView from "../../view/Geral/SistemasInformacaoView";
 import PsicologiaView from "../../view/Geral/PsicologiaView";
+import MedicinaView from "../../view/Geral/MedicinaView";
 
 
 const Drawer = createDrawerNavigator();
@@ -44,7 +45,7 @@ const NavigatorDrawer = () => {
                 options={
                     {
                         drawerLabel: 'Direito',
-                        drawerIcon: (size) => <Feather name="book" size={20} color="black" />
+                        drawerIcon: (size) => <FontAwesome5 name="book" size={20} color="black" />
                     }
                 }
             />
@@ -52,7 +53,7 @@ const NavigatorDrawer = () => {
                 options={
                     {
                         drawerLabel: 'Educação Física',
-                        drawerIcon: (size) => <Feather name="book" size={20} color="black" />
+                        drawerIcon: (size) => <FontAwesome5 name="book" size={20} color="black" />
                     }
                 }
             />
@@ -60,7 +61,7 @@ const NavigatorDrawer = () => {
                 options={
                     {
                         drawerLabel: 'Sistemas de Informação',
-                        drawerIcon: (size) => <Feather name="book" size={20} color="black" />
+                        drawerIcon: (size) => <FontAwesome5 name="book" size={20} color="black" />
                     }
                 }
             />
@@ -68,7 +69,15 @@ const NavigatorDrawer = () => {
                 options={
                     {
                         drawerLabel: 'Psicologia',
-                        drawerIcon: (size) => <Feather name="book" size={20} color="black" />
+                        drawerIcon: (size) => <FontAwesome5 name="book" size={20} color="black" />
+                    }
+                }
+            />
+                                    <Drawer.Screen name="Medicina" component={MedicinaView}
+                options={
+                    {
+                        drawerLabel: 'Medicina',
+                        drawerIcon: (size) => <FontAwesome5git  name="book" size={20} color="black" />
                     }
                 }
             />
