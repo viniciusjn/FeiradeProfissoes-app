@@ -1,8 +1,8 @@
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import SuporteView from "../../view/Geral/SuporteView";
 import { getContext } from "../AuthContext/AuthContext";
-import { Feather, FontAwesome5 } from '@expo/vector-icons';
-import { FlatList, Image, ScrollView, Text, View } from 'react-native-reanimated';
+import { Feather } from '@expo/vector-icons';
+import { FontAwesome5 } from '@expo/vector-icons';
 import DireitoView from "../../view/Geral/DireitoView";
 import EducacaoFisicaView from "../../view/Geral/EducacaoFisicaView";
 import SistemasInformacaoView from "../../view/Geral/SistemasInformacaoView";
@@ -14,7 +14,7 @@ const Drawer = createDrawerNavigator();
 
 const NavigatorDrawer = () => {
 
-    const { isAdm, isDoador, isReceptor } = getContext()
+    const { isAdm } = getContext()
 
     return (
         <Drawer.Navigator screenOptions={{ title: '' }}>
@@ -77,7 +77,7 @@ const NavigatorDrawer = () => {
                 options={
                     {
                         drawerLabel: 'Medicina',
-                        drawerIcon: (size) => <FontAwesome5git  name="book" size={20} color="black" />
+                        drawerIcon: (size) => <FontAwesome5  name="book" size={20} color="black" />
                     }
                 }
             />

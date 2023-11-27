@@ -69,6 +69,20 @@
       "instituicao": "Escola Estadual Duque de Caxias",
       "perfil": "ALUNO",
       "id": 5
+    },
+    {
+      "nome": "aaa",
+      "email": "aaa",
+      "senha": "123",
+      "cep": "36061220",
+      "endereco": "Rua José Zacarias dos Santos",
+      "bairro": "São Benedito",
+      "numero": "10",
+      "cidade": "Juiz de Fora - MG",
+      "idade": "18",
+      "instituicao": "A",
+      "perfil": "ALUNO",
+      "id": 6
     }
   ]
 }
