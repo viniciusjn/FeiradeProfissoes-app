@@ -24,15 +24,14 @@ const SistemasInformacaoView = () => {
                         />
                         <Text variant="titleSmall">Duração: <strong>em média, 4 anos</strong> </Text>
                     </View>
-                    {/* <Text variant="bodyMedium">Card content</Text> */}
                 </Card.Content>
             </Card>
 
         <View style={Styles.text}>
             <Text variant="bodyMedium" style={{ marginBottom: 10 }}>Sistemas de Informação é a ciência que estuda como coletar, armazenar, processar, analisar e distribuir informações por meio de tecnologias, incluindo hardware, software e rede. Desse modo, as organizações adquirem maior eficiência nos processos, tomando decisões informadas.</Text>
-            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>O Curso de<span style={{ color: '#7f67be', fontWeight: 'bold' }}>Sistemas de Informação</span> é um curso voltado para a área de<span style={{ color: '#7f67be', fontWeight: 'bold' }}>tecnologia da Informação</span>, que tem como objetivo formar profissionais capacitados para apoiar as organizações na gestão de informações e na criação de soluções informáticas.</Text>
-            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>Durante o curso, os alunos aprendem sobre os princípios básicos da computação, bem como sobre as tecnologias de informação modernas, como<span style={{ color: '#7f67be', fontWeight: 'bold' }}>redes, sistemas de armazenamento de dados, linguagens de programação, segurança da informação e projetos de software.</span></Text>
-            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>Além disso, os alunos adquirem habilidades analíticas, de<span style={{ color: '#7f67be', fontWeight: 'bold' }}>comunicação</span>e de liderança que são essenciais para atuar na área de TI. O curso de Sistemas de Informação fornece aos alunos os conhecimentos e habilidades necessários para atuar como desenvolvedores de software, administradores de sistemas, analistas de negócios, engenheiros de segurança de rede e especialistas em telecomunicações.</Text>
+            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>O Curso de <span style={{ color: '#7f67be', fontWeight: 'bold' }}>Sistemas de Informação</span> é um curso voltado para a área de <span style={{ color: '#7f67be', fontWeight: 'bold' }}>tecnologia da Informação</span> , que tem como objetivo formar profissionais capacitados para apoiar as organizações na gestão de informações e na criação de soluções informáticas.</Text>
+            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>Durante o curso, os alunos aprendem sobre os princípios básicos da computação, bem como sobre as tecnologias de informação modernas, como <span style={{ color: '#7f67be', fontWeight: 'bold' }}>redes, sistemas de armazenamento de dados, linguagens de programação, segurança da informação e projetos de software.</span></Text>
+            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>Além disso, os alunos adquirem habilidades analíticas, de <span style={{ color: '#7f67be', fontWeight: 'bold' }}>comunicação</span> e de liderança que são essenciais para atuar na área de TI. O curso de Sistemas de Informação fornece aos alunos os conhecimentos e habilidades necessários para atuar como desenvolvedores de software, administradores de sistemas, analistas de negócios, engenheiros de segurança de rede e especialistas em telecomunicações.</Text>
         </View>
         </View>
     )

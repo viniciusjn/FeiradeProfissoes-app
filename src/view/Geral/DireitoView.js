@@ -24,14 +24,13 @@ const DireitoView = () => {
                         />
                         <Text variant="titleSmall">Duração: <strong>em média, 5 anos</strong> </Text>
                     </View>
-                    {/* <Text variant="bodyMedium">Card content</Text> */}
                 </Card.Content>
             </Card>
 
         <View style={Styles.text}>
             <Text variant="bodyMedium" style={{ marginBottom: 10 }} >O Direito é um sistema de normas que regulam a conduta humana em sociedade, visando assegurar justiça, ordem e harmonia nas relações entre indivíduos e instituições.</Text>
-            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>A <span style={{ color: '#7f67be', fontWeight: 'bold' }}> faculdade de direito</span>é uma das opções mais populares entre os estudantes que desejam seguir uma carreira na área jurídica. É uma formação de ensino superior que oferece formação teórica e prática para aqueles que desejam se tornar advogados, juízes, promotores, delegados, entre outras profissões relacionadas ao campo do direito.</Text>
-            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>Durante o <span style={{ color: '#7f67be', fontWeight: 'bold' }}> curso de direito</span>, os alunos aprendem sobre diversas áreas do conhecimento, tais como<span style={{ color: '#7f67be', fontWeight: 'bold' }}>direito civil, penal, trabalhista, tributário, ambiental</span>, entre outros. Além disso, eles têm a oportunidade de aprofundar seus conhecimentos em áreas específicas, através de disciplinas optativas e atividades extracurriculares.</Text>
+            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>A <span style={{ color: '#7f67be', fontWeight: 'bold' }}> faculdade de direito</span> é uma das opções mais populares entre os estudantes que desejam seguir uma carreira na área jurídica. É uma formação de ensino superior que oferece formação teórica e prática para aqueles que desejam se tornar advogados, juízes, promotores, delegados, entre outras profissões relacionadas ao campo do direito.</Text>
+            <Text variant="bodyMedium" style={{ marginBottom: 10 }}>Durante o <span style={{ color: '#7f67be', fontWeight: 'bold' }}> curso de direito</span>, os alunos aprendem sobre diversas áreas do conhecimento, tais como <span style={{ color: '#7f67be', fontWeight: 'bold' }}>direito civil, penal, trabalhista, tributário, ambiental</span>, entre outros. Além disso, eles têm a oportunidade de aprofundar seus conhecimentos em áreas específicas, através de disciplinas optativas e atividades extracurriculares.</Text>
             <Text variant="bodyMedium" style={{ marginBottom: 10 }}>O curso de Direito possui duração de cinco anos, distribuida ao longo de 3.700 horas. O período é determinado para que os alunos completem a grade curricular obrigatória e cumpram com as exigências acadêmicas, que incluem disciplinas teóricas e práticas, estágios supervisionados e a elaboração de um trabalho de conclusão de curso (TCC).</Text>
         </View>
         </View>

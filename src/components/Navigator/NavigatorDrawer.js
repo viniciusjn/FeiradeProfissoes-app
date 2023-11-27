@@ -6,6 +6,7 @@ import { FlatList, Image, ScrollView, Text, View } from 'react-native-reanimated
 import DireitoView from "../../view/Geral/DireitoView";
 import EducacaoFisicaView from "../../view/Geral/EducacaoFisicaView";
 import SistemasInformacaoView from "../../view/Geral/SistemasInformacaoView";
+import PsicologiaView from "../../view/Geral/PsicologiaView";
 
 
 const Drawer = createDrawerNavigator();
@@ -59,6 +60,14 @@ const NavigatorDrawer = () => {
                 options={
                     {
                         drawerLabel: 'Sistemas de Informação',
+                        drawerIcon: (size) => <Feather name="book" size={20} color="black" />
+                    }
+                }
+            />
+                        <Drawer.Screen name="Psicologia" component={PsicologiaView}
+                options={
+                    {
+                        drawerLabel: 'Psicologia',
                         drawerIcon: (size) => <Feather name="book" size={20} color="black" />
                     }
                 }
