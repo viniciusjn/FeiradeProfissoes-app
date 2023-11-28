@@ -8,6 +8,8 @@ import EducacaoFisicaView from "../../view/Geral/EducacaoFisicaView";
 import SistemasInformacaoView from "../../view/Geral/SistemasInformacaoView";
 import PsicologiaView from "../../view/Geral/PsicologiaView";
 import MedicinaView from "../../view/Geral/MedicinaView";
+import NutricaoView from "../../view/Geral/NutricaoView";
+import ArquiteturaView from "../../view/Geral/ArquiteturaView";
 
 
 const Drawer = createDrawerNavigator();
@@ -17,7 +19,7 @@ const NavigatorDrawer = () => {
     const { isAdm } = getContext()
 
     return (
-        <Drawer.Navigator screenOptions={{ title: '' }}>
+        <Drawer.Navigator>
             {/* Admin */}
             {(isAdm()) &&
                 <>
@@ -41,7 +43,7 @@ const NavigatorDrawer = () => {
             }
 
 
-            <Drawer.Screen name="Direto" component={DireitoView}
+            <Drawer.Screen name="Direito" component={DireitoView}
                 options={
                     {
                         drawerLabel: 'Direito',
@@ -49,7 +51,7 @@ const NavigatorDrawer = () => {
                     }
                 }
             />
-            <Drawer.Screen name="EducacaoFisica" component={EducacaoFisicaView}
+            <Drawer.Screen name="Educação Física" component={EducacaoFisicaView}
                 options={
                     {
                         drawerLabel: 'Educação Física',
@@ -57,7 +59,7 @@ const NavigatorDrawer = () => {
                     }
                 }
             />
-            <Drawer.Screen name="SistemasDeInformacao" component={SistemasInformacaoView}
+            <Drawer.Screen name="Sistemas De Informação" component={SistemasInformacaoView}
                 options={
                     {
                         drawerLabel: 'Sistemas de Informação',
@@ -65,7 +67,7 @@ const NavigatorDrawer = () => {
                     }
                 }
             />
-                        <Drawer.Screen name="Psicologia" component={PsicologiaView}
+            <Drawer.Screen name="Psicologia" component={PsicologiaView}
                 options={
                     {
                         drawerLabel: 'Psicologia',
@@ -73,11 +75,27 @@ const NavigatorDrawer = () => {
                     }
                 }
             />
-                                    <Drawer.Screen name="Medicina" component={MedicinaView}
+            <Drawer.Screen name="Medicina" component={MedicinaView}
                 options={
                     {
                         drawerLabel: 'Medicina',
-                        drawerIcon: (size) => <FontAwesome5  name="book" size={20} color="black" />
+                        drawerIcon: (size) => <FontAwesome5 name="book" size={20} color="black" />
+                    }
+                }
+            />
+            <Drawer.Screen name="Nutrição" component={NutricaoView}
+                options={
+                    {
+                        drawerLabel: 'Nutrição',
+                        drawerIcon: (size) => <FontAwesome5 name="book" size={20} color="black" />
+                    }
+                }
+            />
+            <Drawer.Screen name="Arquitetura e Urbanismo" component={ArquiteturaView}
+                options={
+                    {
+                        drawerLabel: 'Arquitetura e Urbanismo',
+                        drawerIcon: (size) => <FontAwesome5 name="book" size={20} color="black" />
                     }
                 }
             />
