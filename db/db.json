@@ -84,5 +84,20 @@
       "perfil": "ALUNO",
       "id": 6
     }
+  ],
+  "quiz": [
+    {
+      "sobreVoce": "Sou amante de tecnologia!",
+      "materiaFacil": "Matemática",
+      "caracteristica": "Liderança",
+      "id": 1
+    },
+    {
+      "sobreVoce": "aaa",
+      "materiaFacil": "aaa",
+      "caracteristica": "aaa",
+      "perfil": "QUIZ",
+      "id": 2
+    }
   ]
 }

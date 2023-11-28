@@ -10,6 +10,7 @@ import PsicologiaView from "../../view/Geral/PsicologiaView";
 import MedicinaView from "../../view/Geral/MedicinaView";
 import NutricaoView from "../../view/Geral/NutricaoView";
 import ArquiteturaView from "../../view/Geral/ArquiteturaView";
+import QuizView from "../../view/Geral/QuizView";
 
 
 const Drawer = createDrawerNavigator();
@@ -96,6 +97,14 @@ const NavigatorDrawer = () => {
                     {
                         drawerLabel: 'Arquitetura e Urbanismo',
                         drawerIcon: (size) => <FontAwesome5 name="book" size={20} color="black" />
+                    }
+                }
+            />
+            <Drawer.Screen name="QUIZ" component={QuizView}
+                options={
+                    {
+                        drawerLabel: 'QUIZ',
+                        drawerIcon: (size) => <FontAwesome5 name="question" size={20} color="black" />
                     }
                 }
             />

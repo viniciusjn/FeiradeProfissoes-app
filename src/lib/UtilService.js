@@ -1,4 +1,4 @@
-const URL = 'https://68f3-186-233-43-17.ngrok.io'
+const URL = 'http://localhost:3000'
 
 const loginApi = async (login, senha)=>{
 
